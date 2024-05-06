@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.dependency 'TweetNacl', '~> 1.0.2'
   s.dependency 'Starscream', '~> 4.0.0'
   s.dependency 'secp256k1.swift'
-  s.dependency 'Beet', '~> 1.0.2'
+  s.dependency 'Beet', :git => 'https://github.com/WalletConnect/WalletConnectSwiftV2.git', '~> 1.0.2'
 end
